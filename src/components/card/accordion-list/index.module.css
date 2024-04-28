@@ -1,0 +1,12 @@
+.listitem {
+  list-style: none;
+}
+
+.listitem:not(:first-child) {
+  padding-top: 1.25rem;
+}
+
+.listitem:not(:last-child) {
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--light-pink);
+}

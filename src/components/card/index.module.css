@@ -1,0 +1,25 @@
+.module {
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 600px;
+  background-color: var(--white);
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  column-gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.image {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}

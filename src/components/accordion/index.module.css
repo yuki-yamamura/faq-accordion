@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1.5rem;
+}
+
+.header:hover {
+  color: var(--pink);
+}
+
+.title {
+  font-weight: 500;
+  display: inline;
+  cursor: pointer;
+}
+
+.content {
+  color: var(--grayish-purple);
+}

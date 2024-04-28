@@ -1,0 +1,31 @@
+.module {
+  width: 100%;
+}
+.bg-image {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  width: 100%;
+  z-index: -1;
+  height: 33.3%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 1.5rem;
+  min-height: 100dvh;
+}
+
+@media (min-width: 767px) {
+  .desktop {
+    display: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobile {
+    display: hidden;
+  }
+}
